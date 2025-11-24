@@ -1,0 +1,47 @@
+@use '../globals/fonts' as f;
+@use '../globals/colors' as c;
+
+body {
+    font-family: f.$red-hat-display;
+}
+
+.title {
+    color: c.$slate-900;
+    font-weight: f.$fw-900;
+    line-height: 110%;
+    font-size: 2.5rem;
+}
+
+p {
+    color: c.$slate-600;
+    font-weight: f.$fw-500;
+    line-height: 150%;
+    font-size: 1rem;
+}
+
+.page-number {
+    color: c.$slate-600;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.section2 {
+    &__title {
+        color: c.$cyan-600;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: f.$fw-900;
+        line-height: 110%;
+        letter-spacing: 0.25rem;
+    }
+
+    &__title2 {
+        color: c.$slate-900;
+        font-weight: f.$fw-900;
+        line-height: 110%;
+        font-size: 2rem;
+        text-transform: initial;
+        letter-spacing: initial;
+    }
+}

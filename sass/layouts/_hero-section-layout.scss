@@ -1,0 +1,23 @@
+.wrapper {
+    height: 100dvh;
+    width: 100dvw;
+}
+.hero-img {
+    // padding-top: 4rem;
+    padding: 4rem 0 0 0;
+    width: 115vw;
+    height: auto;
+    margin-left: -1.5rem;
+}
+.hero-section {
+    margin: 3rem 2rem 0rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
