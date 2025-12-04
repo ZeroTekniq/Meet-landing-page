@@ -1,0 +1,130 @@
+@use '../styles/typography';
+@use '../components/buttons';
+
+@media (min-width: 48rem) {
+    .hero-section-container {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section {
+        grid-column: 2;
+        max-width: 28.0185rem;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .img-grid {
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .features-section-description {
+        max-width: 31.5rem;
+    }
+
+    .section-title {
+        &__part1{
+        font-size: 0.875rem;
+        }
+        
+        &__part2{
+        font-size: 2.25rem;
+        }
+    } 
+ 
+    .page2-content {
+        margin: 0 auto;
+        width: 100vw;
+        // width: 80rem;
+        height: 20rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;        
+    }
+    .hero-buttons {
+        margin: 0 auto;
+    }
+    .page2-content__title {
+        font-size: 2.25rem;
+    }
+    
+}
+
+@media (min-width: 90rem) {
+
+    .desktop-container {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero-img {
+        display: none;
+    }
+    .hero-img-left {
+        margin-top: -1.5rem;
+        padding: 3.56rem 5.99rem 0 0;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .hero-img-right {
+        margin-top: 1.5rem;
+        padding: 3.56rem 0 0 5.99rem;
+        display: grid;
+        width: 100%;
+        height: auto;
+    }
+    .title {
+        font-size: 4rem;
+    }
+     .section-title {
+        &__part1{
+        font-size: 1rem;
+        }
+        
+        &__part2 {
+        font-size: 2.5rem;
+        }
+    } 
+    .button-container {
+        grid-template-columns: auto 1fr 1fr auto;
+    }
+    .page2-content {
+        margin: 0 auto;
+        max-width: 80rem;
+        height: 20rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 0 5.5rem;
+    }
+    .download-button {
+        margin-left: 2.5rem;
+    }
+    .hero-buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     
+    }
+    .about-link-container {
+        grid-column: 2;    
+    }
+
+
+    
+
+}

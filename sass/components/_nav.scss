@@ -1,0 +1,17 @@
+@use '../globals/colors' as c;
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem auto 0 auto;
+
+    &__img {
+        width: 7.375rem;
+        height: 1.75rem;
+    }
+    &__img:hover {
+        cursor: pointer;
+        background-color: c.$slate-300;
+    }
+}

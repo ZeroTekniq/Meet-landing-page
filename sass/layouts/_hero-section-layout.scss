@@ -1,0 +1,29 @@
+
+.hero-img {
+    padding: 4rem 0 0 0;
+    width: 100vw;
+    height: auto;
+}
+
+.hero-section {
+    margin: 3rem auto 0 auto;
+    max-width: 28.0185rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.hero-img-left {
+    display: none;
+}
+.hero-img-right {
+    display: none;
+}
+.hero-buttons {
+    margin: 0 auto;
+}
+
+
+
