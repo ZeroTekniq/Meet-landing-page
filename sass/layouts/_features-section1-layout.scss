@@ -1,0 +1,35 @@
+@use '../globals/colors' as c;
+@use '../globals/fonts' as f;
+
+
+.features-section {
+    margin: 4rem 2rem 4rem 2rem;
+    text-align: center;
+}
+.features-section-description {
+    margin: 0 auto;
+    max-width: 28.0185rem;
+}
+
+.img-grid {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.img-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.section-title  {
+    &__part1 {
+        display: grid;
+        gap: 1rem;
+    }
+    &__part2 {
+        padding-bottom: 2rem;
+    }
+}
